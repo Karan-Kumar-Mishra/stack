@@ -15,7 +15,7 @@ public:
     {
         delete []a;
     }
-    void creat(int c)
+    void create(int c)
     {
         
         top=-1;
@@ -61,7 +61,7 @@ int main()
         case 1:
             cout<<"enter the capacity of stack=>"<<endl;
             cin>>c;
-            s1.creat(c);
+            s1.create(c);
             break;
         case 2:
             cout<<"enter the data=>"<<endl;
